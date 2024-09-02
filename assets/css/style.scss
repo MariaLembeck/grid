@@ -1,0 +1,21 @@
+@import 'reset';
+@import 'vars';
+@import 'layout';
+@import 'grid';
+@import 'menu';
+
+.pai {
+    .filho {
+        background-color: saddlebrown;
+    }
+
+    .filha {
+        background-color: rgb(77, 139, 19);
+
+        &.rebelde {
+            background-color: red;
+        }
+    }
+}
+
+
